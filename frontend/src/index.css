@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+/* GrapesJS customizations */
+.gjs-editor {
+  font-family: 'Inter', sans-serif;
+}
+
+.gjs-one-bg {
+  background-color: #1e293b;
+}
+
+.gjs-two-color {
+  color: #94a3b8;
+}
+
+.gjs-three-bg {
+  background-color: #0f172a;
+}
+
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: #3b82f6;
+}
+
+/* Panel overrides */
+.gjs-pn-panel {
+  background-color: #1e293b;
+  border-color: #334155;
+}
+
+.gjs-block {
+  border-color: #334155;
+  background-color: #1e293b;
+  color: #94a3b8;
+}
+
+.gjs-block:hover {
+  background-color: #334155;
+  color: #fff;
+}
+
+.gjs-block__media svg {
+  fill: currentColor;
+}
